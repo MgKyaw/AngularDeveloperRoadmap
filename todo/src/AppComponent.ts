@@ -15,14 +15,15 @@
 // }
 
 import { Component } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
 @Component({
-  selector: "app-root",
   standalone: true,
-  imports: [],
-  template: "<h1>{{ title }}</h1>",
+  selector: "app-root",
+  templateUrl: "./app.component.html",
   styleUrl: "./app.component.css",
+  imports: [CommonModule],
 })
 export class AppComponent {
-  title = "To do application";
+  // …
 }
