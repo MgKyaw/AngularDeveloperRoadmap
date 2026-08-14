@@ -1,5 +1,6 @@
 // @Component({
 //   selector: 'profile-photo',
-//   template: `<img src="profile-photo.jpg" alt="Your profile photo" />`,
+//   templateUrl: 'profile-photo.html',
+//   styleUrl: 'profile-photo.css',
 // })
 // export class ProfilePhoto {}
