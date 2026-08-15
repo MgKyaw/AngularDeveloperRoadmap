@@ -10,3 +10,7 @@
 //   `,
 // })
 // export class App {}
+
+// template: `
+//   Hello Universe
+// `,
