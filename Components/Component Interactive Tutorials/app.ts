@@ -3,11 +3,11 @@
 // @Component({
 //   selector: 'app-root',
 //   template: ` Hello Universe `,
-//   styles: `
-//     :host {
-//       color: blue;
-//     }
-//   `,
+    // styles: `
+    // :host {
+    //     color: #a144eb;
+    // }
+    // `,
 // })
 // export class App {}
 
