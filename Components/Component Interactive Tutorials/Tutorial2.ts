@@ -2,7 +2,7 @@
 
 // @Component({
 //   selector: 'app-root',
-//   template: ` Hello `,
+//   template: `Hello {{ city }}`,
 // })
 // export class App {
 //   city = 'San Francisco';
