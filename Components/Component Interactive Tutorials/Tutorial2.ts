@@ -4,4 +4,6 @@
 //   selector: 'app-root',
 //   template: ` Hello `,
 // })
-// export class App {}
+// export class App {
+//   city = 'San Francisco';
+// }
