@@ -2,7 +2,10 @@
 
 // @Component({
 //   selector: 'app-root',
-//   template: ``,
+//   template: `
+//     @for (user of users; track user.id) {
+//     <p>{{ user.name }}</p>
+//     }`,
 // })
 // export class App {
     // users = [
