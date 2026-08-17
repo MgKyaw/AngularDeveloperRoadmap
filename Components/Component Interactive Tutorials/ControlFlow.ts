@@ -6,4 +6,5 @@
 // })
 // export class App {
 //   // add the boolean property here
+//   isServerRunning = true;
 // }
