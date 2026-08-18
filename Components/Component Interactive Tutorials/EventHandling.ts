@@ -3,7 +3,7 @@
 // @Component({
 //   selector: 'app-root',
 //   template: `
-//     <section>
+//     <section (mouseover)="showSecretMessage()">
 //       There's a secret message for you, hover to reveal 👀
 //       {{ message }}
 //     </section>
