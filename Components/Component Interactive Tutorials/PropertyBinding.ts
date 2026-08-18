@@ -5,4 +5,6 @@
 //   styleUrls: ['app.css'],
 //   template: ` <div contentEditable="false"></div> `,
 // })
-// export class App {}
+// export class App {
+//   isEditable = true;
+// }
