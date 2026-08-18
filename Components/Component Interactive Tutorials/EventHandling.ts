@@ -12,5 +12,7 @@
 // export class App {
 //   message = '';
 
-//   showSecretMessage() {}
+    // showSecretMessage() {
+    //     this.message = 'Way to go 🚀';
+    // }
 // }
