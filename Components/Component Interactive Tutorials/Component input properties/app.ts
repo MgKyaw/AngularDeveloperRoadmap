@@ -3,7 +3,7 @@
 
 // @Component({
 //   selector: 'app-root',
-//   template: ` <app-user /> `,
+//   template: ` <app-user name="Simran"/> `,
 //   imports: [User],
 // })
 // export class App {}
