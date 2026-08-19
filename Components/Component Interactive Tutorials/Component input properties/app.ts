@@ -6,4 +6,6 @@
 //   template: ` <app-user /> `,
 //   imports: [User],
 // })
-// export class App {}
+// export class User {
+//   name = input<string>();
+// }
