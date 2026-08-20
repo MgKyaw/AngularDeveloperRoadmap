@@ -10,5 +10,6 @@
 //   template: ` <button class="btn" (click)="addItem()">Add Item</button> `,
 // })
 // export class Child {
+//   addItemEvent = output<string>();
 //   addItem() {}
 // }
