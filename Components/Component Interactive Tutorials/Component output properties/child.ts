@@ -11,5 +11,7 @@
 // })
 // export class Child {
 //   addItemEvent = output<string>();
-//   addItem() {}
+//   addItem() {
+    // this.addItemEvent.emit('🐢');
+// }
 // }
