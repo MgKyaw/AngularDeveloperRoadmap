@@ -7,7 +7,9 @@
 //     <div>
 //       <h1>How I feel about Angular</h1>
 //       <article></article>
-//       <comments />
+        // @defer {
+        //     <comments />
+        // }
 //     </div>
 //   `,
 //   imports: [Comments],
