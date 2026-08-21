@@ -9,7 +9,9 @@
 //       <article></article>
         // @defer {
         //     <comments />
-        // }
+        // } @placeholder {
+    //     <p>Future comments</p>
+    //   }
 //     </div>
 //   `,
 //   imports: [Comments],
