@@ -17,7 +17,7 @@ import { NgOptimizedImage } from '@angular/common';
       </li>
     </ul>
   `,
-  imports: [],
+  imports: [NgOptimizedImage],
 })
 export class User {
   logoUrl = '/logo.svg';
