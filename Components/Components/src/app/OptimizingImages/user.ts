@@ -9,11 +9,11 @@ import { NgOptimizedImage } from '@angular/common';
     <ul>
       <li>
         Static Image:
-        <img src="/logo.svg" alt="Angular logo" />
+        <img ngSrc="/logo.svg" alt="Angular logo" width="32" height="32" />
       </li>
       <li>
         Dynamic Image:
-        <img [src]="logoUrl" [alt]="logoAlt" />
+        <img [ngSrc]="logoUrl" [alt]="logoAlt" width="32" height="32" />
       </li>
     </ul>
   `,
