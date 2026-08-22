@@ -13,7 +13,7 @@ import { NgOptimizedImage } from '@angular/common';
       </li>
       <li>
         Dynamic Image:
-        <img [ngSrc]="logoUrl" [alt]="logoAlt" width="32" height="32" />
+        <img ngSrc="www.example.com/image.png" height="600" width="800" priority />
       </li>
     </ul>
   `,
