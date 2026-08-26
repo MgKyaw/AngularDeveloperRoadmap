@@ -5,7 +5,10 @@ import {Component} from '@angular/core';
   template: `
     <p>Username: {{ username }}</p>
     <p>{{ username }}'s favorite framework: {{ favoriteFramework }}</p>
-    <label for="framework">Favorite Framework:</label>
+    <label for="framework">
+        Favorite Framework:
+        <input id="framework" type="text" />
+    </label>
   `,
   imports: [],
 })
