@@ -16,6 +16,6 @@ import { ReactiveFormsModule } from '@angular/forms';
       <button type="submit">Submit</button>
     </form>
   `,
-  imports: [],
+  imports: [ReactiveFormsModule],
 })
 export class App {}
