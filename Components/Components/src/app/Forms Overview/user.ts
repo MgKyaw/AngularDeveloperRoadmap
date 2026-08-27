@@ -4,7 +4,7 @@ import {FormsModule} from '@angular/forms';
 @Component({
   selector: 'app-user',
   template: `
-    <p>Username: {{ username }}</p>
+    <p>Framework: {{ favoriteFramework }}</p>
     <p>{{ username }}'s favorite framework: {{ favoriteFramework }}</p>
     <label for="framework">
   Favorite Framework:
