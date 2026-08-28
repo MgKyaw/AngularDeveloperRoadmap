@@ -18,4 +18,9 @@ import {ReactiveFormsModule, FormControl, FormGroup } from '@angular/forms';
   `,
   imports: [ReactiveFormsModule],
 })
-export class App {}
+export class App {
+  profileForm = new FormGroup({
+    name: new FormControl(''),
+    email: new FormControl(''),
+  });
+}
