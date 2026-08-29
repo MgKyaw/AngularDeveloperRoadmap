@@ -11,7 +11,7 @@ import {ReactiveFormsModule, Validators} from '@angular/forms';
       <button type="submit">Submit</button>
     </form>
   `,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, Validators],
 })
 export class App {
   profileForm = new FormGroup({
