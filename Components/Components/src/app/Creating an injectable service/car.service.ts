@@ -1,5 +1,6 @@
 import {Service} from '@angular/core';
 
+@Service()
 export class CarService {
   cars = ['Sunflower GT', 'Flexus Sport', 'Sprout Mach One'];
 
