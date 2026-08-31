@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {UpperCasePipe} from '@angular/common';
+import {LowerCasePipe} from '@angular/common';
 
 @Component({
   selector: 'app-root',
