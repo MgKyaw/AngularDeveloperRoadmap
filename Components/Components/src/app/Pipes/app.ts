@@ -3,7 +3,7 @@ import {LowerCasePipe} from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  template: ` {{ username }} `,
+  template: `{{ username | lowercase }}`,
   imports: [LowerCasePipe]
 })
 export class App {
