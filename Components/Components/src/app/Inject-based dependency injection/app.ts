@@ -6,5 +6,6 @@ import {CarService} from './car.service';
   template: ``,
 })
 export class App {
+  carService = inject(CarService)
   display = '';
 }
