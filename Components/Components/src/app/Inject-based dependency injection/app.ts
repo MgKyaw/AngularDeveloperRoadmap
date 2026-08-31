@@ -3,8 +3,9 @@ import {CarService} from './car.service';
 
 @Component({
   selector: 'app-root',
-  template: ``,
+  template: `<p>Car Listing: {{ display }}</p>`,
 })
 export class App {
-  display = '';
+  carService = inject(CarService)
+  display = this.carService.getCars().join(' ⭐️ ');
 }
