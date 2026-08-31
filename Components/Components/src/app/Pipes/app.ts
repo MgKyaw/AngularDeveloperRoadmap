@@ -4,7 +4,7 @@ import {LowerCasePipe} from '@angular/common';
 @Component({
   selector: 'app-root',
   template: ` {{ username }} `,
-  imports: [],
+  imports: [LowerCasePipe]
 })
 export class App {
   username = 'yOunGTECh';
