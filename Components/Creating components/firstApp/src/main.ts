@@ -14,3 +14,14 @@ bootstrapApplication(App, appConfig)
 //     {provide: ErrorHandler, useClass: GlobalErrorHandler},
 //   ],
 // });
+
+// // Usage in consumer app
+// // main.ts
+// bootstrapApplication(App, {
+//   providers: [
+//     provideAnalytics({
+//       trackingId: 'GA-12345',
+//       enableDebugMode: !environment.production,
+//     }),
+//   ],
+// });
