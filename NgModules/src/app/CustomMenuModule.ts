@@ -5,5 +5,6 @@
 //   // This NgModule declares all of CustomMenu, CustomMenuItem,
 //   // CustomSlider, and CustomCheckbox.
 //   declarations: [WIDGETS, CustomCheckbox],
+//   standalone: false,
 // })
 // export class CustomMenuModule {}
