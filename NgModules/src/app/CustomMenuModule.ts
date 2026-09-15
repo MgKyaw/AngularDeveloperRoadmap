@@ -7,5 +7,10 @@
 //      imports: [PopupTrigger, SelectionIndicator],
 //      declarations: [CustomMenu, CustomMenuItem],
 //   standalone: false,
+//   // Make CustomMenu and CustomMenuItem available to
+//   // components and NgModules that import CustomMenuModule.
+//   exports: [CustomMenu, CustomMenuItem],
+// // Also make PopupTrigger available to any component or NgModule that imports CustomMenuModule.
+//   exports: [CustomMenu, CustomMenuItem, PopupTrigger],
 // })
 // export class CustomMenuModule {}
