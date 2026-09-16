@@ -3,6 +3,7 @@
 //   declarations: [CustomMenu, CustomMenuItem],
 //   // Provide the OverlayManager service
 //   providers: [OverlayManager],
+// providers: [CustomMenuModule.forChild(/* some config */)],
 //   /* ... */
 // })
 // export class CustomMenuModule {}
