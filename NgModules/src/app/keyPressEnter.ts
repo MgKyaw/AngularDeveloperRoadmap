@@ -12,3 +12,6 @@
 
 // <!-- Matches shift and enter -->
 // <input type="text" (keyup.shift.enter)="updateField($event)" />
+
+// <!-- Matches alt and left shift -->
+// <input type="text" (keydown.code.alt.shiftleft)="updateField($event)" />
