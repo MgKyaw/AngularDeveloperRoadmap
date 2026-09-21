@@ -9,3 +9,6 @@
 //     console.log('The user pressed enter in the text field.');
 //   }
 // }
+
+// <!-- Matches shift and enter -->
+// <input type="text" (keyup.shift.enter)="updateField($event)" />
