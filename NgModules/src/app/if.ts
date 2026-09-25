@@ -5,3 +5,7 @@
 // } @else {
 //   {{a}} is equal to {{b}}
 // }
+
+// @if (users$ | async; as users) {
+//   {{ users.length }}
+// }
