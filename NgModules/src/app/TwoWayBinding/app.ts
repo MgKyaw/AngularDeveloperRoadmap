@@ -13,3 +13,20 @@
 // export class App {
 //   firstName = 'Ada';
 // }
+
+// import {Component} from '@angular/core';
+// import {Counter} from './counter';
+
+// @Component({
+//   selector: 'app-root',
+//   imports: [Counter],
+//   template: `
+//     <main>
+//       <h1>Counter: {{ initialCount }}</h1>
+//       <app-counter [(count)]="initialCount"></app-counter>
+//     </main>
+//   `,
+// })
+// export class App {
+//   initialCount = 18;
+// }
