@@ -9,3 +9,16 @@
 //     return formatNumber(value, this.locale, '1.2-2');
 //   }
 // }
+
+// Avoid this
+// import {inject, Service} from '@angular/core';
+// import {DecimalPipe} from '@angular/common';
+
+// @Service()
+// export class PriceService {
+//   private decimalPipe = inject(DecimalPipe);
+
+//   format(value: number) {
+//     return this.decimalPipe.transform(value, '1.2-2');
+//   }
+// }
