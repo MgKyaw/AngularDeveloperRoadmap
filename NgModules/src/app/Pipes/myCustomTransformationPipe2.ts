@@ -1,6 +1,10 @@
-// import {Pipe} from '@angular/core';
+// import {Pipe, PipeTransform} from '@angular/core';
 
 // @Pipe({
 //   name: 'myCustomTransformation',
 // })
-// export class MyCustomTransformationPipe {}
+// export class MyCustomTransformationPipe implements PipeTransform {
+//   transform(value: string): string {
+//     return `My custom transformation of ${value}.`;
+//   }
+// }
