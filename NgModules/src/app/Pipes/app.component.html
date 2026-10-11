@@ -3,3 +3,10 @@
   <p>Price: {{ price | currency }}</p>
   <p>Price: {{ price | currency:'EUR':'symbol-narrow':'4.2-2' }}</p>
 </div>
+
+<div>
+  <h2>Using DatePipe</h2>
+  <p>Current date: {{ currentDate | date }}</p>
+  <p>Current date: {{ currentDate | date:'fullDate' }}</p>
+  <p>Current date: {{ currentDate | date:'short' }}</p>
+</div> 
