@@ -11,3 +11,9 @@
 //     email: 'john@example.com'
 //   };
 // }
+
+// app.component.html
+// <div>
+//   <h2>Using JsonPipe</h2>
+//   <pre>{{ myObject | json }}</pre>
+// </div>
