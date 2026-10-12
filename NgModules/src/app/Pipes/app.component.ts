@@ -17,3 +17,11 @@
 //   <h2>Using JsonPipe</h2>
 //   <pre>{{ myObject | json }}</pre>
 // </div>
+
+// output
+// Using JsonPipe
+// {
+//   "name": "John",
+//   "age": 30,
+//   "email": "john@example.com"
+// }
