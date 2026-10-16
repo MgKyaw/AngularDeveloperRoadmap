@@ -6,4 +6,10 @@
 //   value = input(0);
 // }
 
+// @Component(/* ... */)
+// export class CustomSlider {
+//   // Produces an InputSignal<number | undefined> because `value` may not be set.
+//   value = input<number>();
+// }
+
 // <custom-slider [value]="50" />
