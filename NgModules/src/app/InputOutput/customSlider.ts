@@ -5,3 +5,5 @@
 //   // Declare an input named 'value' with a default value of zero.
 //   value = input(0);
 // }
+
+// <custom-slider [value]="50" />
