@@ -51,3 +51,12 @@
 // function appendPx(value: number): string {
 //   return `${value}px`;
 // }
+
+// Built-in transformation
+// import {Component, input, booleanAttribute, numberAttribute} from '@angular/core';
+
+// @Component(/* ... */)
+// export class CustomSlider {
+//   disabled = input(false, {transform: booleanAttribute});
+//   value = input(0, {transform: numberAttribute});
+// }
