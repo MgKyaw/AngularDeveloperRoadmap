@@ -40,3 +40,5 @@
 // function trimString(value: string | undefined): string {
 //   return value?.trim() ?? '';
 // }
+
+// <custom-slider [label]="systemVolume" />
