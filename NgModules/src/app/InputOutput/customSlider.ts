@@ -28,3 +28,40 @@
 
 //   // Declare a required input named value. Returns an `InputSignal<number>`.
 //   value = input.required<number>();
+
+// @Component({
+//   selector: 'custom-slider',
+//   /*...*/
+// })
+// export class CustomSlider {
+//   label = input('', {transform: trimString});
+// }
+
+// function trimString(value: string | undefined): string {
+//   return value?.trim() ?? '';
+// }
+
+// <custom-slider [label]="systemVolume" />
+
+// @Component(/* ... */)
+// export class CustomSlider {
+//   widthPx = input('', {transform: appendPx});
+// }
+
+// function appendPx(value: number): string {
+//   return `${value}px`;
+// }
+
+// Built-in transformation
+// import {Component, input, booleanAttribute, numberAttribute} from '@angular/core';
+
+// @Component(/* ... */)
+// export class CustomSlider {
+//   disabled = input(false, {transform: booleanAttribute});
+//   value = input(0, {transform: numberAttribute});
+// }
+
+// @Component(/* ... */)
+// export class CustomSlider {
+//   value = input(0, {alias: 'sliderValue'});
+// }
