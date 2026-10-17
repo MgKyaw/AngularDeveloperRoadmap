@@ -28,3 +28,15 @@
 
 //   // Declare a required input named value. Returns an `InputSignal<number>`.
 //   value = input.required<number>();
+
+// @Component({
+//   selector: 'custom-slider',
+//   /*...*/
+// })
+// export class CustomSlider {
+//   label = input('', {transform: trimString});
+// }
+
+// function trimString(value: string | undefined): string {
+//   return value?.trim() ?? '';
+// }
