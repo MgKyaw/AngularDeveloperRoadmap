@@ -60,3 +60,8 @@
 //   disabled = input(false, {transform: booleanAttribute});
 //   value = input(0, {transform: numberAttribute});
 // }
+
+// @Component(/* ... */)
+// export class CustomSlider {
+//   value = input(0, {alias: 'sliderValue'});
+// }
