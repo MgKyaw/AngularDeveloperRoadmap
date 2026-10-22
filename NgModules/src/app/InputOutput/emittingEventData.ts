@@ -9,3 +9,13 @@
 
 // add usage
 // <custom-slider (valueChanged)="logValue($event)" />
+
+// Receive the event in the partent component
+// @Component({
+//  /*...*/
+// })
+// export class App {
+//   logValue(value: number) {
+//     ...
+//   }
+// }
