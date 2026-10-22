@@ -7,3 +7,5 @@
 
 // usage
 // <expandable-panel (panelClosed)="savePanelState()" />
+
+// this.panelClosed.emit();
