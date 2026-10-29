@@ -11,3 +11,5 @@
 // export class HighlightDirective {
 //   protected isHovered = signal(false);
 // }
+
+// <p appHighlight>Highlight me!</p>
