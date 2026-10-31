@@ -6,3 +6,5 @@
 //   pointerX: 123,
 //   pointerY: 456,
 // });
+
+// <custom-slider (valueChanged)="logValue($event)" />
