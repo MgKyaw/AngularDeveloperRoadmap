@@ -5,3 +5,8 @@
 // ];
 
 // <a [routerLink]="['/heroes']">Heroes</a>
+
+// <a [routerLink]="['/hero', hero.id]">
+//   <span class="badge">{{ hero.id }}</span
+//   >{{ hero.name }}
+// </a>
