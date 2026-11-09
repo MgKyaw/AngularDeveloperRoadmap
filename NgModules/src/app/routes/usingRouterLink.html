@@ -1,0 +1,27 @@
+<a href="/example">
+  Example HTML link.
+</a>
+
+<a routerLink="/users/sammy">
+  Link that uses a string.
+</a>
+
+<a [routerLink]="['/', 'users', 'sammy']">
+  Link that uses an array.
+</a>
+
+<a [routerLink]="['../', 'posts', 'sammy']">
+  Link that goes up a level.
+</a>
+
+<a [routerLink]="['/', 'users', {display: 'verbose'}, 'sammy']">
+  Link with parameter.
+</a>
+
+<a [routerLink]="['/', 'users', { outlets: { side: ['sammy'] } }]">
+  Link with a side outlet.
+</a>
+
+<a [routerLink]="['/', 'users', { outlets: { side: ['sammy'], footer: ['sharks'] } }]">
+  Link with a side and footer outlets.
+</a>
