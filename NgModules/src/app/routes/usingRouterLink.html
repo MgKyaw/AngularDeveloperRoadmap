@@ -17,3 +17,7 @@
 <a [routerLink]="['/', 'users', {display: 'verbose'}, 'sammy']">
   Link with parameter.
 </a>
+
+<a [routerLink]="['/', 'users', { outlets: { side: ['sammy'] } }]">
+  Link with a side outlet.
+</a>
