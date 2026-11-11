@@ -9,3 +9,11 @@
 // // or
 // id = input<string | undefined>();
 // internalId = linkedSignal(() => this.id() ?? getDefaultId());
+
+// provideRouter(
+//   appRoutes,
+//   withComponentInputBinding({
+//     queryParams: false,
+//     unmatchedInputBehavior: 'undefinedIfStale',
+//   }),
+// );
