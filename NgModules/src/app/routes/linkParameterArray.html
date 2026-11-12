@@ -1,0 +1,10 @@
+<a [routerLink]="['/heroes']">Heroes</a>
+
+<a [routerLink]="['/hero', hero.id]">
+  <span class="badge">{{ hero.id }}</span
+  >{{ hero.name }}
+</a>
+
+<a [routerLink]="['/crisis-center', {foo: 'foo'}]">Crisis Center</a>
+
+<a [routerLink]="['/crisis-center']">Crisis Center</a>
