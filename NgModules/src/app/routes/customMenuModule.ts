@@ -22,3 +22,12 @@
 //   declarations: [WIDGETS, CustomCheckbox],
 // })
 // export class CustomMenuModule {}
+
+// @Component({
+//   // Mark this component as `standalone: false` so that it can be declared in an NgModule.
+//   standalone: false,
+//   /* ... */
+// })
+// export class CustomMenu {
+//   /* ... */
+// }
