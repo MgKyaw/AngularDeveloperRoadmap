@@ -31,3 +31,11 @@
 // export class CustomMenu {
 //   /* ... */
 // }
+
+// @NgModule({
+//   /* ... */
+//   // CustomMenu and CustomMenuItem depend on the PopupTrigger and SelectorIndicator components.
+//   imports: [PopupTrigger, SelectionIndicator],
+//   declarations: [CustomMenu, CustomMenuItem],
+// })
+// export class CustomMenuModule {}
