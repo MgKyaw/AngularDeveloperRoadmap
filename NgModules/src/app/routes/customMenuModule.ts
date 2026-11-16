@@ -49,3 +49,12 @@
 //   exports: [CustomMenu, CustomMenuItem],
 // })
 // export class CustomMenuModule {}
+
+// @NgModule({
+//   imports: [PopupTrigger, SelectionIndicator],
+//   declarations: [CustomMenu, CustomMenuItem],
+
+//   // Also make PopupTrigger available to any component or NgModule that imports CustomMenuModule.
+//   exports: [CustomMenu, CustomMenuItem, PopupTrigger],
+// })
+// export class CustomMenuModule {}
