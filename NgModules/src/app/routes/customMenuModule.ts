@@ -39,3 +39,13 @@
 //   declarations: [CustomMenu, CustomMenuItem],
 // })
 // export class CustomMenuModule {}
+
+// @NgModule({
+//   imports: [PopupTrigger, SelectionIndicator],
+//   declarations: [CustomMenu, CustomMenuItem],
+
+//   // Make CustomMenu and CustomMenuItem available to
+//   // components and NgModules that import CustomMenuModule.
+//   exports: [CustomMenu, CustomMenuItem],
+// })
+// export class CustomMenuModule {}
