@@ -22,3 +22,56 @@
 //   declarations: [WIDGETS, CustomCheckbox],
 // })
 // export class CustomMenuModule {}
+
+// @Component({
+//   // Mark this component as `standalone: false` so that it can be declared in an NgModule.
+//   standalone: false,
+//   /* ... */
+// })
+// export class CustomMenu {
+//   /* ... */
+// }
+
+// @NgModule({
+//   /* ... */
+//   // CustomMenu and CustomMenuItem depend on the PopupTrigger and SelectorIndicator components.
+//   imports: [PopupTrigger, SelectionIndicator],
+//   declarations: [CustomMenu, CustomMenuItem],
+// })
+// export class CustomMenuModule {}
+
+// @NgModule({
+//   imports: [PopupTrigger, SelectionIndicator],
+//   declarations: [CustomMenu, CustomMenuItem],
+
+//   // Make CustomMenu and CustomMenuItem available to
+//   // components and NgModules that import CustomMenuModule.
+//   exports: [CustomMenu, CustomMenuItem],
+// })
+// export class CustomMenuModule {}
+
+// @NgModule({
+//   imports: [PopupTrigger, SelectionIndicator],
+//   declarations: [CustomMenu, CustomMenuItem],
+
+//   // Also make PopupTrigger available to any component or NgModule that imports CustomMenuModule.
+//   exports: [CustomMenu, CustomMenuItem, PopupTrigger],
+// })
+// export class CustomMenuModule {}
+
+// @NgModule({
+//   imports: [PopupTrigger, SelectionIndicator],
+//   declarations: [CustomMenu, CustomMenuItem],
+
+//   // Provide the OverlayManager service
+//   providers: [OverlayManager],
+//   /* ... */
+// })
+// export class CustomMenuModule {}
+
+// @NgModule({
+//   imports: [CustomMenuModule],
+//   declarations: [UserProfile],
+//   providers: [UserDataClient],
+// })
+// export class UserProfileModule {}
