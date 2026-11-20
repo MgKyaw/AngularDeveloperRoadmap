@@ -10,3 +10,7 @@
 
 //   // You can add methods here
 // }
+
+// getData(): Observable<any> {
+//   return this.http.get('https://api.example.com/data');
+// }
