@@ -9,3 +9,12 @@
 //     return this.http.put(endpoint, body);
 //   }
 // }
+
+// constructor(private apiService: ApiService) {}
+
+// ngOnInit() {
+//   this.apiService.getData('https://example.com/items').subscribe({
+//     next: (res) => console.log('Items:', res),
+//     error: (err) => console.error('Error:', err)
+//   });
+// }
